@@ -1,0 +1,21 @@
+{
+  "name": "rust-output",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/rust/output/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/esbuild:esbuild",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/rust/output",
+        "main": "libs/rust/output/src/index.js",
+        "tsConfig": "libs/rust/output/tsconfig.lib.json",
+        "assets": [],
+        "generatePackageJson": true,
+        "format": ["cjs"]
+      }
+    }
+  },
+  "tags": []
+}

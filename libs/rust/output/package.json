@@ -1,0 +1,9 @@
+{
+  "name": "@app/rust",
+  "version": "0.0.1",
+  "dependencies": {},
+  "type": "commonjs",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "private": true
+}

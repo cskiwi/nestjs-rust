@@ -19,7 +19,8 @@
       "@app/backend-test": ["libs/backend/test/src/index.ts"],
       "@app/frontend-root": ["libs/frontend/root/src/index.ts"],
       "@app/node-testing": ["libs/node/testing/src/index.js"],
-      "@app/rust-testing": ["libs/rust/testing/index.d.ts"]
+      "@app/rust": ["libs/rust/output/src/index.d.ts"],
+      "@app/rust-testing": ["libs/rust/testing/index.js"]
     }
   },
   "exclude": ["node_modules", "tmp"]

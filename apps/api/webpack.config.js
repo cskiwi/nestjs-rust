@@ -15,4 +15,14 @@ module.exports = {
       outputHashing: 'none',
     }),
   ],
+
+  module: {
+    rules: [
+      {
+        // load all.node files as files
+        test: /\.node$/,
+        loader: 'file-loader',
+      },
+    ],
+  },
 };

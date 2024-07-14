@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { sum } from '@app/rust-testing';
+import { sum } from '@app/rust';
 
 @Injectable()
 export class BackendTestService {
