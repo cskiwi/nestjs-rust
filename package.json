@@ -42,7 +42,7 @@
     "@angular/compiler-cli": "~18.0.2",
     "@angular/language-service": "~18.0.2",
     "@monodon/rust": "^1.4.0",
-    "@napi-rs/cli": "2.18.3",
+    "@napi-rs/cli": "2.18.4",
     "@nestjs/schematics": "^10.1.1",
     "@nestjs/testing": "^10.3.9",
     "@nx/devkit": "19.2.3",
